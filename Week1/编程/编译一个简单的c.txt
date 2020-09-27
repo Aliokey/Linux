@@ -1,1 +1,10 @@
-
+cd ~ //跳转到home目录
+pwd //显示当前路径
+cd /  //跳转到根目录，注意在路径中第一个/表示根目录，后面的表示间隔
+ls -l
+mkdir ./week1-1
+ls
+mkdir ./week1-1/code
+ls ./week1-1
+vim ./week1-1/code/1-1.c
+gcc ./week1-1/code/1-1.c
